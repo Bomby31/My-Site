@@ -1,0 +1,81 @@
+.Heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-img{
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.first-image-container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.center-left{
+    position: absolute;
+    top: 20%;
+    left: 32px;
+    font-size: 100px;
+    font-family: "Charm", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    text-align: center; 
+    font-weight: 400px;
+}
+
+hr{
+    border-top: 6px dotted #333332;
+}
+
+
+@media(min-width: 319px) and (max-width: 768px){
+    .center-left{
+        font-size: 40px;
+    }
+}
+
+@media(min-width: 769px) and (max-width: 992px){
+    .center-left{
+        font-size: 60px;
+    }
+}
+
+@media(min-width: 993px) and (max-width: 1200px){
+    .center-left{
+        font-size: 70px;
+    }
+}
+
+@media(min-width: 1201px){
+    .center-left{
+        font-size: 80px;
+    }
+}
+--Fonts--
+
+.charm-regular {
+    font-family: "Charm", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.charm-bold {
+    font-family: "Charm", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+.oswald{
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight:300;
+    font-style: normal;
+  }
