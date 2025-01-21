@@ -84,7 +84,7 @@
 
 /* Gradient background */
 .section-gradient {
-    background: linear-gradient(120deg, #ff9a9e, #fad0c4);
+    background: linear-gradient(120deg, #34495E, #7F8C8D);
     color: #ffffff;
     padding: 50px 0;
 }
@@ -95,8 +95,33 @@
     color: #333333;
     padding: 50px 0;
 }
+
+.section-1 {
+    background-color: #2C3E50;
+}
+
+.section-2 {
+    background-color: #34495E;
+}
+
+.section-3 {
+    background-color: #00cec9;
+  }
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Makes the section take up the full viewport height */
+    text-align: center;
+    color: white;
+}
   
-  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
 
 button:hover {
   background-color: #007BFF;
@@ -120,13 +145,9 @@ footer a:hover {
   
 
 p{
-    font-family: "Charm", serif;
+    font-family: "Oswald", serif;
     font-weight: 400px;
     font-size: 1.5rem;
-}
-
-hr{
-    border-top: 6px dotted #333332;
 }
 
 html {
@@ -221,7 +242,7 @@ h2, h3 {
 }
   
 .section-animated {
-    background: linear-gradient(120deg, #ff9a9e, #fad0c4, #fbc2eb, #a6c1ee);
+    background: linear-gradient(120deg, #2C3E50, #34495E, #BDC3C7, #34495E, #2C3E50);
     background-size: 300% 300%;
     animation: gradientAnimation 10s ease infinite;
     color: #ffffff;
