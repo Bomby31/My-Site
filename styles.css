@@ -112,7 +112,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Makes the section take up the full viewport height */
+    min-height: 100vh; /* Makes the section take up the full viewport height */
     text-align: center;
     color: white;
 }
